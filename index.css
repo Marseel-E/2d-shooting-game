@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	font-weight: bold;
+	font-family: sans-serif;
+	color: #fff;
+	user-select: none;
+
+	overflow: hidden;
+}
+
+body {
+	position: relative;
+}
+
+.score-div {
+	position: absolute;
+	top: .5rem;
+	left: .5rem;
+}
+
+.env-div {
+	position: absolute;
+	top: 35%;
+	left: 35%;
+
+	width: 400px;
+	height: 200px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	background-color: #fff;
+	border-radius: 2.5px;
+}
+
+.env-div div > * {
+	color: #000;
+}
+
+.env-div div p {
+	margin: 0 0 1rem 0;
+}
+
+.env-div div div button {
+	padding: .5rem 1rem;
+
+	border: none;
+	border-radius: 2.5rem;
+
+	background-color: #5261f8;
+	color: #fff;
+}
